@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -9,6 +8,11 @@ class App extends Component {
         <h1>Hi I am a React App Enthusiast</h1>
       </div>
     );
+
+    // Above compiled code will look like below
+    // return React.createElement('div', {className: 'App'},
+    //   React.createElement('h1', null, 'Hi! This is the content of the h1 tag')
+    // );
   }
 }
 
